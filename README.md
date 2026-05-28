@@ -1,15 +1,31 @@
-# CyberPi Arduino Firmware
+# Bad Apple on CyberPi
 
-Idk i was bored so i did this. It's Bad Apple running on the CyberPi.
+Bad Apple running on the CyberPi (ESP32-based board by Makeblock). Why? Because i was bored.
 
-You can flash the `.bin` file directly onto the CyberPi if you want. The CyberPi is an ESP32 but custom made by Makeblock.
+## Flashing
+
+1. Clone the repo
+2. Flash the `.bin` file:
+
+**Linux:**
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash 0x0 bad-cyberpi.bin
+
+**Windows:**
+esptool.py --chip esp32 --port COM3 --baud 921600 write_flash 0x0 bad-cyberpi.bin
+
+-> Adjust port (`/dev/ttyUSB0` or `COM3`) and path to the `.bin` file accordingly.
+
+3. To see the lyrics via Serial Monitor:
+   - **Linux:** `screen /dev/ttyUSB0 115200`
+   - **Windows:** PuTTY → Serial → COM3 → 115200 baud
+  
+-> Adjust port (`/dev/ttyUSB0` or `COM3`) accordingly.
 
 ## Editing
 
-You can also edit the project yourself. You'll need:
+To build/edit yourself you'll need:
 
-- the **LittleFS** plugin in your Arduino plugins folder
-- **PSRAM** set to on
-- **Storage** set to 8mb
-
-Screen and audio stuff is based on the official lib: https://github.com/Makeblock-official/CyberPi-Library-for-Arduino
+- **LittleFS** plugin in your Arduino plugins folder
+- **PSRAM** enabled
+- **Storage** set to 8MB
+- CyberPi Arduino Library: https://github.com/Makeblock-official/CyberPi-Library-for-Arduino
