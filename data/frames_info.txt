@@ -1,0 +1,5 @@
+frames=5258
+fps=24
+width=128
+height=128
+bytes_per_frame=2048
