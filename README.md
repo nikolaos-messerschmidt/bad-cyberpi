@@ -29,3 +29,11 @@ To build/edit yourself you'll need:
 - **PSRAM** enabled
 - **Storage** set to 8MB
 - CyberPi Arduino Library: https://github.com/Makeblock-official/CyberPi-Library-for-Arduino
+
+
+
+
+Demo:
+
+https://github.com/user-attachments/assets/f2a24eb9-ad36-4444-844d-b46a90bff157
+
