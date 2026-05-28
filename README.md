@@ -10,14 +10,14 @@ Bad Apple running on the CyberPi (ESP32-based board by Makeblock). Why? Because 
 **Linux:**
 `esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash 0x0 bad-cyberpi.bin`
 
-**Windows:**
+**Bindoj:**
 `esptool.py --chip esp32 --port COM3 --baud 921600 write_flash 0x0 bad-cyberpi.bin`
 
 -> Adjust port (`/dev/ttyUSB0` or `COM3`) and path to the `.bin` file accordingly.
 
 3. To see the lyrics via Serial Monitor:
    - **Linux:** `screen /dev/ttyUSB0 115200`
-   - **Windows:** PuTTY → Serial → COM3 → 115200 baud
+   - **Bindoj:** PuTTY → Serial → COM3 → 115200 baud
   
 -> Adjust port (`/dev/ttyUSB0` or `COM3`) accordingly.
 
