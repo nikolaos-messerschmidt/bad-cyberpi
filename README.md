@@ -8,10 +8,10 @@ Bad Apple running on the CyberPi (ESP32-based board by Makeblock). Why? Because 
 2. Flash the `.bin` file:
 
 **Linux:**
-esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash 0x0 bad-cyberpi.bin
+`esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash 0x0 bad-cyberpi.bin`
 
 **Windows:**
-esptool.py --chip esp32 --port COM3 --baud 921600 write_flash 0x0 bad-cyberpi.bin
+`esptool.py --chip esp32 --port COM3 --baud 921600 write_flash 0x0 bad-cyberpi.bin`
 
 -> Adjust port (`/dev/ttyUSB0` or `COM3`) and path to the `.bin` file accordingly.
 
