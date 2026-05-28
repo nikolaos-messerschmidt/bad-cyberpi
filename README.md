@@ -1,4 +1,4 @@
-# Bad Apple on CyberPi
+# Bad Apple on Makeblocks CyberPi
 
 Bad Apple running on the CyberPi (ESP32-based board by Makeblock). Why? Because i was bored.
 
