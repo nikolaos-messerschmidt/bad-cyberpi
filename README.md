@@ -33,7 +33,6 @@ To build/edit yourself you'll need:
 
 
 
-Demo:
+## Demo:
 
-https://github.com/user-attachments/assets/f2a24eb9-ad36-4444-844d-b46a90bff157
-
+[Bad_cyberpi.webm](https://github.com/user-attachments/assets/a7e859ea-23c8-431c-ac7a-cb4a3f91fcfd)
