@@ -1,6 +1,6 @@
 # CyberPi Arduino Firmware
 
-Idk i was bored so i did this.
+Idk i was bored so i did this. It's Bad Apple running on the CyberPi.
 
 You can flash the `.bin` file directly onto the CyberPi if you want. The CyberPi is an ESP32 but custom made by Makeblock.
 
